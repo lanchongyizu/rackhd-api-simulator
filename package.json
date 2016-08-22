@@ -1,0 +1,33 @@
+{
+  "name": "node-behavior-simulator",
+  "version": "0.0.1",
+  "description": "A lightweight node behavior simulator for RackHD developement & testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyscamper/node-behavior-simulator.git"
+  },
+  "keywords": [
+    "simulator",
+    "rackhd",
+    "behavior",
+    "api",
+    "node",
+    "scale",
+    "test"
+  ],
+  "author": "yyscamper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yyscamper/node-behavior-simulator/issues"
+  },
+  "homepage": "https://github.com/yyscamper/node-behavior-simulator#readme",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  }
+}
