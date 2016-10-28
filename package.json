@@ -1,14 +1,14 @@
 {
-  "name": "node-behavior-simulator",
+  "name": "rackhd-api-simulator",
   "version": "0.0.1",
-  "description": "A lightweight node behavior simulator for RackHD developement & testing",
+  "description": "A lightweight node api simulator for RackHD developement & testing",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yyscamper/node-behavior-simulator.git"
+    "url": "git+https://github.com/yyscamper/rackhd-api-simulator.git"
   },
   "keywords": [
     "simulator",
@@ -22,12 +22,14 @@
   "author": "yyscamper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yyscamper/node-behavior-simulator/issues"
+    "url": "https://github.com/yyscamper/rackhd-api-simulator/issues"
   },
-  "homepage": "https://github.com/yyscamper/node-behavior-simulator#readme",
+  "homepage": "https://github.com/yyscamper/rackhd-api-simulator#readme",
   "dependencies": {
+    "bluebird": "^3.4.1",
     "lodash": "^4.15.0",
     "request": "^2.74.0",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "tftp": "^0.1.2"
   }
 }
